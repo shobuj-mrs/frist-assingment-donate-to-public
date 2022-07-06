@@ -180,8 +180,15 @@ h3 {
     width: 145%;
 }
 
+#center {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5%;
+}
+
 .form-section {
-    background-color: rgba(232, 240, 131, 0.397);
+    background-color: rgba(230, 211, 104, 0.397);
     padding: 4.5% 0% 4.5% 15%;
     border: none;
     outline: none;
@@ -196,19 +203,36 @@ h3 {
 #email {
     outline: none;
     border: 4px;
-    color: aliceblue;
-    background-color: rgb(206, 202, 202);
+    color: rgb(136, 192, 189);
+    background-color: rgba(136, 131, 123, 0.705);
     padding: 15px 50px;
-    border-radius: 10px;
-    font-size: 17px;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
 #subscribe {
     outline: none;
     border: 4px;
     background-color: rgba(238, 70, 70, 0.829);
-    padding: 15px 20px;
-    font-size: 17px;
-    border-radius: 10px;
+    padding: 15px 50px;
+    font-size: 20px;
+    border-radius: 5px;
 
+}
+
+span {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+.footer-size {
+    text-align: center;
+}
+
+.footer-text {
+    color: white;
+}
+
+footer {
+    background-color: black;
 }
